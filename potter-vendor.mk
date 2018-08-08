@@ -1063,7 +1063,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/potter/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:/system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/potter/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:/system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/potter/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:/system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
-
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libmmcamera_mot_ov5695.so:system/vendor/lib/cedric/libmmcamera_mot_ov5695.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_common.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_common.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_cpp_hfr_120.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_cpp_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_cpp_liveshot.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_cpp_liveshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_cpp_snapshot.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_cpp_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_cpp_video.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_cpp_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_default_video.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_default_video.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_default_video_3a.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_default_video_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_hfr_120.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_hfr_120.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_hfr_120_3a.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_hfr_120_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_postproc.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_postproc.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_snapshot.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_snapshot.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libchromatix_mot_ov5695_snapshot_3a.so:system/vendor/lib/cedric/libchromatix_mot_ov5695_snapshot_3a.so \
+    vendor/motorola/potter/proprietary/vendor/lib/cedric/libmmcamera_ov5695_eeprom.so:system/vendor/lib/cedric/libmmcamera_ov5695_eeprom.so_eeprom.so
 
 PRODUCT_PACKAGES += \
     TimeService \
